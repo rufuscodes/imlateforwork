@@ -1,0 +1,316 @@
+/*
+Theme Name: imlateforwork V1.0
+Theme URI: http://imlateforwork.com/
+Description: imlateforwork wordpress template
+Version: 1.0
+Author: imlateforwork
+Author URI: http://imlateforwork.com/
+Tags: beasty
+
+
+	 http://imlateforwork/imlate/
+
+	This theme was designed and developed by Rufus Jones and Ryan Huntsinger.
+
+*/
+
+/* CSS reset */
+@font-face {
+	font-family: 'ThyssenJItalic';
+	src: url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/thyssenji-webfont.eot');
+	src: local('☺'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/thyssenji-webfont.woff') format('woff'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/thyssenji-webfont.ttf') format('truetype'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/thyssenji-webfont.svg#webfontjeEdxLUf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ReznorBroken';
+	src: url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/rezb____-webfont.eot');
+	src: local('☺'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/rezb____-webfont.woff') format('woff'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/rezb____-webfont.ttf') format('truetype'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/rezb____-webfont.svg#webfont2iiOxtPO') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GoudyBookletter1911Regular';
+	src: url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/goudybookletter1911-webfont.eot');
+	src: local('☺'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/goudybookletter1911-webfont.woff') format('woff'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/goudybookletter1911-webfont.ttf') format('truetype'), url('/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/goudybookletter1911-webfont.svg#webfontHQFt24wc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {text-shadow: 0px 1px 1px #fff;}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+ color: #442c03; 
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; width: auto; height: auto; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul {
+	padding-left: 0px; list-style-type: none;
+}
+q:before, q:after { content:''; }
+a {text-decoration: none;}
+a:hover {-webkit-transition: background 300ms ease-in 200ms;
+    -moz-transition: background 300ms ease-in 200ms;
+    -o-transition: background 300ms ease-in 200ms;
+    transition: background 300ms ease-in 200ms;}
+/* CSS style */
+body {background:url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/bg.png); }
+#container {
+	width:992px;
+	height: auto;
+	background-color: #442c03;
+	background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/cBg.png);
+	background-repeat: repeat-y;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+/* Navigation */
+#headNavigation {
+	display: block;
+	float: left;
+	background:url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/headBg.png);
+	list-style: none;
+	
+} 
+ul#headNavigation {
+	list-style: none;
+}              
+
+ul#headNavigation li{
+	display: block;
+	float: left;
+	width: 228px;
+	height: 30px;
+	color: #442c03;
+	cursor: pointer;
+	font-family:ThyssenJItalic;
+}
+
+.nLink:hover {background: #f9c967;}
+.nLink {margin: 30px 0px 10px 0px; background:#ccffcc; }
+.nLink a  {display:block; float:left; padding: 4px 0px 0px 14px; font-size: 22px; font-weight:500; font-family:ThyssenJItalic; color:#442c03; text-decoration:none; }
+.nLink a:hover  {color:#442c03; text-decoration:none; }
+.nLink p:after {}
+li#nHome {
+	width: 220px;
+	background-color:transparent;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	letter-spacing: -2px;
+}
+#nHome p {margin:0 0px 0 2px;}
+li#nHome a {text-decoration: none; font-size: 50px; color: #442c03; font-family:ThyssenJItalic;}
+li#nHome a:hover {text-decoration: none; background:none;}
+#headNavigation li.selected  {text-decoration: none; font-size: 50px; color: #442c03; text-decoration: none;}
+#nHome .nBar {width: 210px;
+	      position: relative;
+	      top: -7px;
+}	
+.nBar {
+	background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/nBar.png);
+	width: 228px;
+	height: 9px;
+	position: relative;
+	top: 30px;
+}
+
+#nBlog {margin-left: 10px;}
+#nWork {margin-left: 20px;}
+#nContact {margin-left: 20px;}
+
+/* Template crumbs w1(side width style 1) l1(line style 1) */
+		.tz12 {font-size:12px;}
+		.tz13 {font-size:13px;}
+		.tz14 {font-size:14px;}
+		.tz15 {font-size:15px;}
+		.tz18 {font-size:18px;}
+		.tz20 {font-size:20px;}
+		.tz22 {font-size:22px;}
+		.tz24 {font-size:24px;}
+		.tz26 {font-size:26px;}
+		.tz12e {font-size: 2em;}
+		.ts4 { font-family:Georgia, "Times New Roman", Times, serif;}
+		.ts3 {font-family: GoudyBookletter1911Regular;}
+		.ts2 {font-family: ReznorBroken;}
+		.ts1 {font-family: ThyssenJItalic, Georgia, "Times New Roman", Times, serif;}
+		.ws1 {margin: 0px 0px 0px 10px; width: 223px;}
+		.ls1 {background-image: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/ls1.png); background-repeat: repeat-x; height: 4px;}
+		.ls2 {background-image: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/ls2.png); background-repeat: repeat-x; height: 25px;}
+		.ls3 {background-image: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/ls3.png); background-repeat: no-repeat; height: 10px;}
+		.ls4 {background-image: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/spanBarCase.png);   background-repeat: repeat-x; height: 25px;}
+		.nomargin {margin: 0px 0px 0px 0px; }
+		a {font-size:10pt; color:#5b7b70; font-family:ReznorBroken;}
+		.selected {background:#f6cf7a; text-decoration: underline;}
+		.seleectNot {background: #ccffcc;}
+		.hide {opacity: 0.3;}
+		.opac1 {opacity: 1;}
+
+a:hover {
+text-decoration: underline;		
+color:#56766b;
+background-color:#f6cf7a;
+}
+/* side left */
+#sideLeft {background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/sideLeft.png); background-repeat: repeat-y; float:left;}
+#sectionHeader {font-size: 29px; margin-bottom: 40px;}
+#sectionHeader h1{margin: 20px 0px 0 20px;}
+#sectionDescription p{font-size:18px; font-weight:500;}
+#infoSection {width: 250px; min-height: 250px; }
+#infoSection p {width: 220px; padding-left: 18px;}
+#contactInfo { margin-top: 60px; padding-top: 30px; padding-bottom: 180px;}
+#contactInfo li { margin: 0px 0px 4px 8px; font-size:14px;}
+#contactInfo p { padding:0 0 8px 10px;}
+
+/* goodBar */
+.goodBarTall {width: 230px; height: auto; clear: left; display: block;}
+#goodBar {float: left; display: block; padding: 0px 0px 0px 10px; background:url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/headBg.png); min-height:180px;}
+#goodBar p {font-family:GoudyBookletter1911Regular ; font-size: 15px; padding: 15px 0px 0px 4px; line-height: 16px;}
+#goodBar li#goodLinks, li#goodAbout, li#goodNetworking, li#goodDownloads {float: left; width: 228px; height: auto; margin: 10px 20px 0px 0px;  padding: 0px 0px 0px 0px; min-height: 30px;}
+#goodBar h1{padding: 8px 0 0px 8px; font-size: 16px;}
+#goodBar #goodNetworking {margin: 10px 0px 0px 0px;}
+ul#goodBar li#goodDownloads ul li h4 {display:none;}
+ul#goodBar li#goodDownloads div.lpbcArchive {margin: 0px 0px 0px 0px; padding: 0px;}
+/* page */
+#page {width: 740px; height: auto; display: block; float:right; margin: 0px 0px 0px 0px;}
+/* home*/
+#home {width: 740px; height: 480px; background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/homeStage.png); background-repeat: no-repeat;}
+#homeStageD {float: left; background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/homeStageD.png); width:732px; height:110px; margin-top: 340px;}
+#homeStageD p {width: 670px; margin: 10px 0 0 35px; font-size: 1.2em; font-family:GoudyBookletter1911Regular ;}
+
+/* blog*/
+#content {width: 740px; height: auto; float: right; display: block; font-family: Helvetica;}
+#contentSingle {width: 740px; height: auto; float: left; display: block; margin: 50px 0px 0px 0px; font-family: Helvetica;}
+.blogHide {display:none!important;}
+#post { width: 391px; height: auto; float: left; margin: 0px 0px 0px 30px; padding-top: 0px;}
+.post { width: 391px; height: auto; float: left; padding-top: 40px; }
+#post h2 {font-size: 55px; letter-spacing: -4px;}
+#post span.title {font-size: 22px;}
+#post p {padding-top: 10px; font-size:13px; line-height: 25px;}
+#postMeta {height: 50px; margin-top: 30px;}
+#postMeta p {height: 12px; padding-top: 2px;}
+#postMeta a {font-weight: bold;}
+p#postAuthor {font-size: 11px; padding-bottom: 7px;}
+p#postAuthor a {font-size: 11px; }
+#postComment {margin-top: 50px;}
+#postComment h3 {font-size: 24px; font-weight:bold;}
+#postComment span {font-size: 16px; font-weight:bold;}
+#comment {width: 391px; height: auto;}
+#postSidebar {width: 116px; margin: 130px 110px 0px 0px; float: right;}
+#postSidebar h4 {margin: 0px 10px 10px 0px; }
+#postSidebar li {padding: 5px 0px;}
+.postmetadata {margin-bottom: 50px;}
+
+.menu {background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/menuBg.png); width: 244px; height: 478px; float: left;}
+.menu a {font-family: ReznorBroken;}
+ul.work li {margin:5px 0 0 15px; float: left;}
+ul.work {padding-top: 25px;}
+.workContent {dispaly: block; float: left; margin-left: 250px;}
+div.spanBar {background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/spanBar.png); width: auto; height: 12px; background-repeat: repeat-x; margin-top: 10px; padding-bottom: 15px;}
+.postCommentContain {margin-left: 10px;}
+/* footer */ 
+#footer {width: 992px; height: 74px; background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/footerBg.png); background-repeat: repeat-x; margin: 30px auto 30px auto;}
+#footerInfo {float: left; width: 430px; height: auto; display: block; padding-top: 20px; margin: 0 auto 0 30px; color: #f6cf7a;}
+
+#footerInfo1 {float: left; width: 315px; height: auto; display: block; padding-top: 20px; margin: 0 auto 0 10px; color: #f6cf7a;}
+#footer a {font-family: ReznorBroken;}
+.clear {clear:both;}
+li.selected { background: #ffcc66;}
+.jflow-content-slider {float: left;}
+.seeNo {display: none;}
+#goodDownloads .lpbcArchive ul li {margin: 3px 0 0 3px; height: auto;}
+#goodDownloads .lpbcArchive ul {margin-top:12px;}
+#contactBar {background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/contactMenuBg.png); margin-left: 6px; background-repeat: no-repeat; width: 228px; height: 476px; float: left;}
+#contactBarContent {width: 200px; height: auto; padding: 12px 0 0 20px;}
+#contactBarContent p {font-family: GoudyBookletter1911Regular; }
+#contactContent {width: 482px; height: auto; float: left;}
+#contactContent img {margin: 15px  0 0 6px;}
+#contactContent h1 {font-family: ReznorBroken; font-size: 1.3em; margin: 20px 0 0px 15px; padding: 0; }
+#contactContent div.ls1 {margin: 3px 0 0 18px; width: 440px; }	
+#contactContent p { margin: 5px 0 0 18px; font-size: 1em; font-family: GoudyBookletter1911Regular; width: 250px;}
+#workCase {width: 476px; height: auto; margin-left: 10px; float: left; padding-top:10px;}
+#workCaseFrame {width:459px; height:328px; background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/showCaseFrame.png);background-repeat: no-repeat; padding: 10px 7px 0px 10px; }
+#workCase h1 {display: block; float: left; background: url(/web/20110131105336im_/http://imlateforwork.com/wp-content/themes/imlateforworkV1_0/img/bg.png); padding-right: 5px;}
+#workCase div.ls4 { font-size: 1.4em; font-weight: bold; margin: 10px 5px 0 0; width:460px;}
+#workCase div.ls1 {margin: 0 5px 0 0; width: 458px;}
+#workCase p {margin: 5px 5px 0 0; width: 460px;}
+/* contact form*/
+#contactForm {width:100px; margin-top: 12px;}
+
+.notification_error
+{
+background: #ffffcc;
+border: 1px solid #a2967b;
+height: auto;
+width: 90%;
+padding: 4px;
+text-align: left;
+-moz-border-radius: 5px;
+}
+
+.notification_ok
+{
+height: auto;
+width: 90%
+padding: 8px;
+text-align: center;
+}
+#ajax-contact-form, #fields, .info_fieldset {width: 200px; height: auto;}
+.info_fieldset {border:none; };
+
+
+.button
+{
+float: right;
+margin-right: 10px;
+}
+
+/* Label */
+label  { width: 100px; float: left; padding: 3px; font-family:ReznorBroken;}
+
+/* Input, Textarea */
+input, textarea
+{ 
+float: left; 
+padding: 3px;
+border: 1px solid #a2967b;
+font-family: Helvetica;
+font-size: 12px;
+letter-spacing: 1px;
+}
+
+
+/* BR */
+
+br { clear: left; }
+/*
+     FILE ARCHIVED ON 10:53:36 Jan 31, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:17:48 Oct 26, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 100.913
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.055
+  cdx.remote: 0.062
+  esindex: 0.01
+  LoadShardBlock: 71.806 (3)
+  PetaboxLoader3.datanode: 98.166 (4)
+  load_resource: 100.66
+  PetaboxLoader3.resolve: 23.335
+*/
